@@ -1,0 +1,111 @@
+body{
+    color: #09090B;
+  background-color: antiquewhite;
+  background-size: cover; /* Redimensionne l'image pour couvrir toute la zone */
+  background-position: center;   
+}
+h1 {
+    color:rgb(228, 134, 19) ;
+    font-family: "Jersey 10", sans-serif;
+}
+p {
+    font-weight: bold;
+    color: rgb(228, 134, 19);
+    font-family: "Jersey 10", sans-serif;
+  font-weight: 400px;
+
+
+  font-style:italic;
+}
+
+h2,h3,h4,h5,h6{
+    font-weight: bold;
+    color: rgb(228, 134, 19);
+    font-family: "Jersey 10", sans-serif;
+  font-weight: 100px;
+  font-weight: bold;
+  font-weight: 400;
+
+}
+
+
+
+p{
+    color: #020202;
+    font-family: Arial, Helvetica, sans-serif, Courier, monospace;
+    font-weight: bold;
+    font-weight: 400;
+}
+a {
+    color: rgb(234, 21, 21);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    
+  }
+  a:hover {
+    color: yellow;
+    text-decoration: none;
+  }
+.img-circle{
+    border-radius: 50%;
+}
+.img-bordered {
+    border: 10px solid rgb(228, 134, 19);
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.9);
+  }
+  img{
+    
+        width: 150px; 
+        height: 150px; /* Taille souhaitée pour toutes les images */
+        display:inline-block; /* Pour aligner les images horizontalement */
+        margin: 2 auto; /* Pour centrer les images horizontalement */
+       
+  }
+  
+  @media (max-width: 960px) {
+    .container{
+    width: 700px;
+    margin: 40px auto;
+    text-align: center; 
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+    margin: 20px auto;
+  }
+}
+  .card-white{
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    border: 1px solid rgb(228, 134, 19);
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.9);
+    margin: 20px;
+    text-align: center;
+  }
+  .img-circle {
+    border-radius: 50%;
+    
+  
+  }
+  .btn-blue {
+    background-color: #6b72E1;
+    color: white;
+    padding: 15PX 20px;
+    border-radius: 4px;
+  }
+  .btn-blue:hover {
+    background-color: #020202;
+    color: aliceblue;
+  }
+  .list-inline {
+    list-style: none;
+    padding-left: 0%;
+    display: inline;
+    padding: 50px;
+  }
+  .list-inline i{
+    font-size: 50px;
+  }
+  
